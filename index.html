@@ -1,15 +1,12 @@
-```html
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>MAIQ DONAT | Donat Premium Homemade Bekasi</title>
-
-<meta name="description" content="Maiq Donat menghadirkan donat premium homemade dengan topping melimpah, lembut, dan lezat di Bekasi.">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>MAIQ DONAT</title>
 
 <style>
 
@@ -17,343 +14,617 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
+font-family:Arial,sans-serif;
 }
 
 body{
 background:#faf7f2;
 color:#333;
-line-height:1.7;
 }
 
-header{
-position:fixed;
-top:0;
-width:100%;
-background:rgba(255,255,255,.95);
-backdrop-filter:blur(10px);
-z-index:999;
-box-shadow:0 2px 15px rgba(0,0,0,.05);
-}
 
-nav{
-max-width:1200px;
-margin:auto;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 20px;
-}
 
-.logo{
-font-size:28px;
-font-weight:700;
-color:#7a3b12;
-}
 
-nav ul{
-display:flex;
-gap:20px;
-list-style:none;
-}
-
-nav a{
-text-decoration:none;
-color:#333;
-font-weight:500;
-}
+/* HERO */
 
 .hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
-url('images/hero.jpg');
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
+
+padding:70px 20px;
 text-align:center;
-padding:20px;
+
+background:
+linear-gradient(135deg,#ff6b00,#ff9a3d);
+
 color:white;
+
 }
 
-.hero-content h1{
-font-size:60px;
+
+
+.logo{
+
+width:180px;
+margin-bottom:20px;
+
+}
+
+
+.hero h1{
+
+font-size:50px;
+
 margin-bottom:15px;
+
 }
 
-.hero-content p{
-font-size:22px;
+
+.hero p{
+
+font-size:20px;
+
 margin-bottom:30px;
+
 }
+
 
 .btn{
-display:inline-block;
+
 padding:15px 35px;
-background:#25D366;
-color:white;
+
+background:white;
+
+color:#ff6b00;
+
 text-decoration:none;
+
 border-radius:50px;
-font-weight:600;
+
+font-weight:bold;
+
+display:inline-block;
+
 }
 
-.section{
-padding:90px 20px;
+
+.btn:hover{
+
+background:#5c2c06;
+color:white;
+
+}
+
+
+
+
+
+.container{
+
 max-width:1200px;
 margin:auto;
+padding:70px 20px;
+
 }
 
-.section-title{
+
+.title{
+
 text-align:center;
-margin-bottom:50px;
-}
 
-.section-title h2{
 font-size:40px;
-color:#7a3b12;
+
+margin-bottom:50px;
+
+color:#5c2c06;
+
 }
 
-.products{
+
+
+
+.grid{
+
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
+
+grid-template-columns:
+
+repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
 }
+
+
 
 .card{
+
 background:white;
-padding:30px;
+
 border-radius:20px;
-box-shadow:0 8px 25px rgba(0,0,0,.08);
-transition:.3s;
+
+overflow:hidden;
+
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+transition:.4s;
+
 }
+
+
 
 .card:hover{
-transform:translateY(-8px);
+
+transform:translateY(-10px);
+
 }
+
+
+
+.card img{
+
+width:100%;
+
+height:300px;
+
+object-fit:cover;
+
+}
+
+
 
 .card h3{
-color:#7a3b12;
-margin-bottom:10px;
+
+padding:20px;
+
+text-align:center;
+
 }
 
-.gallery{
+
+
+
+
+.features{
+
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
 }
 
-.gallery img{
-width:100%;
-height:280px;
-object-fit:cover;
-border-radius:18px;
-box-shadow:0 8px 20px rgba(0,0,0,.1);
-transition:.4s;
+
+
+.box{
+
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
 }
 
-.gallery img:hover{
-transform:scale(1.03);
+
+
+
+.box h3{
+
+margin-bottom:10px;
+color:#ff6b00;
+
 }
+
+
+
 
 .about{
-max-width:900px;
-margin:auto;
+
 text-align:center;
+
 font-size:18px;
+
+line-height:1.8;
+
 }
 
-.contact-box{
-background:white;
-padding:40px;
-border-radius:20px;
-box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+
+.cta{
+
+padding:80px 20px;
+
 text-align:center;
+
+background:#ff6b00;
+
+color:white;
+
 }
 
-footer{
-background:#4d2207;
-color:white;
-padding:40px 20px;
+
+
+
+.cta h2{
+
+font-size:40px;
+margin-bottom:20px;
+
+}
+
+
+
+.footer{
+
+padding:30px;
 text-align:center;
+
+background:#5c2c06;
+
+color:white;
+
 }
 
-.whatsapp-float{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-width:65px;
-height:65px;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:30px;
-text-decoration:none;
-box-shadow:0 5px 20px rgba(0,0,0,.25);
-z-index:999;
+
+
+.halal{
+
+width:90px;
+
+margin-top:20px;
+
 }
+
 
 @media(max-width:768px){
 
-.hero-content h1{
-font-size:42px;
-}
+.hero h1{
 
-.hero-content p{
-font-size:18px;
-}
-
-nav ul{
-display:none;
-}
+font-size:35px;
 
 }
+
+.title{
+
+font-size:30px;
+
+}
+
+}
+
 
 </style>
+
+
 </head>
+
 
 <body>
 
-<header>
-<nav>
-<div class="logo">🍩 MAIQ DONAT</div>
 
-<ul>
-<li><a href="#produk">Produk</a></li>
-<li><a href="#galeri">Galeri</a></li>
-<li><a href="#tentang">Tentang</a></li>
-<li><a href="#kontak">Kontak</a></li>
-</ul>
-</nav>
-</header>
 
 <section class="hero">
 
-<div class="hero-content">
-<h1>MAIQ DONAT</h1>
-<p>Donat Premium Homemade Bekasi</p>
+<img src="logo.png"
+class="logo">
 
-<a class="btn"
-href="https://wa.me/6285215667159"
-target="_blank">
+
+<h1>MAIQ DONAT</h1>
+
+
+<p>
+
+Donat Premium Homemade Bekasi
+
+</p>
+
+
+<a href="https://wa.me/6281339779750"
+
+class="btn">
+
 Pesan Sekarang
+
 </a>
 
+
+<br><br>
+
+<img src="halal.png"
+
+class="halal">
+
+
+</section>
+
+
+
+
+
+<section class="container">
+
+<h2 class="title">
+
+Galeri MAIQ DONAT
+
+</h2>
+
+
+
+<div class="grid">
+
+
+
+<div class="card">
+
+<img src="foto1.jpg">
+
+<h3>Box Premium 6 Donat</h3>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="foto2.jpg">
+
+<h3>Box Premium 12 Donat</h3>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="foto3.jpg">
+
+<h3>Donat Fresh Every Day</h3>
+
+</div>
+
+
+
 </div>
 
 </section>
 
-<section id="produk" class="section">
 
-<div class="section-title">
-<h2>Produk Kami</h2>
+
+
+
+
+<section class="container">
+
+<h2 class="title">
+
+6 Varian Menggoda
+
+</h2>
+
+
+
+<div class="features">
+
+
+<div class="box">
+
+<h3>Cokelat Meises</h3>
+
 </div>
 
-<div class="products">
 
-<div class="card">
-<h3>Donat Mini</h3>
-<p>Tersedia isi 6 dan 12 pcs dengan berbagai topping premium.</p>
+<div class="box">
+
+<h3>Kacang Almond</h3>
+
 </div>
 
-<div class="card">
-<h3>Donat Reguler</h3>
-<p>Lembut, empuk, dan cocok untuk semua acara.</p>
+
+
+<div class="box">
+
+<h3>Krim Lumer</h3>
+
 </div>
 
-<div class="card">
-<h3>Donat Topping Premium</h3>
-<p>Keju, coklat meses, kacang, almond dan lainnya.</p>
+
+
+<div class="box">
+
+<h3>Keju Premium</h3>
+
 </div>
 
-<div class="card">
-<h3>Bolu Ketan Hitam</h3>
-<p>Tersedia varian keju lumer dan coklat premium.</p>
+
+
+<div class="box">
+
+<h3>Taro Sprinkle</h3>
+
 </div>
+
+
+
+<div class="box">
+
+<h3>Choco Crunch</h3>
+
+</div>
+
+
 
 </div>
 
 </section>
 
-<section id="galeri" class="section">
 
-<div class="section-title">
-<h2>Galeri Produk</h2>
-</div>
 
-<div class="gallery">
 
-<img src="images/donat1.jpg">
-<img src="images/donat2.jpg">
-<img src="images/donat3.jpg">
-<img src="images/premium1.png">
-<img src="images/premium2.png">
 
-</div>
 
-</section>
+<section class="container">
 
-<section id="tentang" class="section">
 
-<div class="section-title">
-<h2>Tentang Maiq Donat</h2>
-</div>
+<h2 class="title">
+
+Tentang Kami
+
+</h2>
+
+
 
 <div class="about">
 
-Maiq Donat hadir untuk menghadirkan donat premium homemade dengan bahan pilihan dan cita rasa istimewa. Setiap produk dibuat dengan penuh perhatian agar menghasilkan donat yang lembut, lezat, dan berkualitas untuk keluarga Indonesia.
+
+MAIQ DONAT menghadirkan donat premium homemade
+dengan bahan pilihan, topping melimpah,
+tekstur lembut, serta cita rasa yang dibuat
+dengan cinta untuk keluarga Indonesia.
+
+
+<br><br>
+
+Diproduksi secara higienis dan telah
+bersertifikat halal.
+
 
 </div>
+
+
 
 </section>
 
-<section id="kontak" class="section">
 
-<div class="section-title">
-<h2>Hubungi Kami</h2>
+
+
+
+
+<section class="container">
+
+
+<h2 class="title">
+
+Kenapa Pilih MAIQ DONAT?
+
+</h2>
+
+
+
+<div class="features">
+
+
+
+<div class="box">
+
+<h3>Bahan Berkualitas</h3>
+
+<p>Topping premium dan fresh.</p>
+
 </div>
 
-<div class="contact-box">
 
-<h3>📍 Lokasi</h3>
+
+<div class="box">
+
+<h3>Dibuat Dengan Cinta</h3>
+
+<p>Homemade setiap hari.</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h3>Halal Indonesia</h3>
+
+<p>Aman dan terpercaya.</p>
+
+</div>
+
+
+
+<div class="box">
+
+<h3>Cocok Untuk Acara</h3>
+
+<p>Arisan, ulang tahun, hampers.</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="cta">
+
+
+<h2>
+
+Pesan MAIQ DONAT Sekarang
+
+</h2>
+
+
 
 <p>
-Jl. Ili 1 No.161, Jatirangga,<br>
-Jatisampurna, Bekasi
+
+Nikmati kelembutan donat premium terbaik.
+
 </p>
+
+
 
 <br>
 
-<a class="btn"
-href="https://wa.me/6285215667159"
-target="_blank">
-Pesan via WhatsApp
+
+
+<a href="https://wa.me/6281339779750"
+
+class="btn">
+
+Chat WhatsApp
+
 </a>
 
-</div>
+
 
 </section>
 
-<footer>
 
-<h3>MAIQ DONAT</h3>
 
-<p>Donat Premium Homemade Bekasi</p>
 
-<p>© 2026 Maiq Donat. All Rights Reserved.</p>
+
+
+<footer class="footer">
+
+
+© 2026 MAIQ DONAT
+
+<br>
+
+Premium Homemade Bekasi
+
 
 </footer>
 
-<a class="whatsapp-float"
-href="https://wa.me/6285215667159"
-target="_blank">
-💬
-</a>
+
 
 </body>
+
 </html>
-```
