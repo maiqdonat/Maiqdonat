@@ -4,47 +4,112 @@
 <head>
 
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>MAIQ DONAT | Donat Premium Homemade Bekasi</title>
+<meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+
+
+<title>
+MAIQ DONAT | Donat Premium Homemade Bekasi
+</title>
+
 
 <meta name="description"
-content="MAIQ DONAT Bekasi. Donat premium homemade dengan topping melimpah. Halal, lembut, cocok untuk hampers, acara dan cemilan keluarga.">
+content="MAIQ DONAT Bekasi - Donat Premium Homemade dengan topping melimpah. Halal, fresh everyday dan cocok untuk hampers.">
+
 
 <meta name="keywords"
-content="donat bekasi, donat premium, maiq donat, donat halal, bomboloni">
+content="Donat Bekasi, Donat Premium, Maiq Donat, Donat Halal">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="author"
+content="MAIQ DONAT">
+
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 
 <style>
 
+
+:root{
+
+--primary:#6B3B17;
+
+--secondary:#FF9F43;
+
+--accent:#FFD56A;
+
+--cream:#FFF8F1;
+
+--dark:#2d2d2d;
+
+--white:#ffffff;
+
+--shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
 *{
+
 margin:0;
 padding:0;
 box-sizing:border-box;
+
 }
+
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
 
 body{
 
-font-family:Poppins,sans-serif;
+font-family:'Poppins',sans-serif;
 
-background:#faf8f5;
-
-color:#333;
+background:var(--cream);
 
 overflow-x:hidden;
+
+color:#444;
+
+line-height:1.7;
 
 }
 
 
-/* ====================== */
+img{
+
+max-width:100%;
+
+display:block;
+
+}
+
 
 .container{
 
 width:90%;
+
 max-width:1200px;
 
 margin:auto;
@@ -53,246 +118,7 @@ margin:auto;
 
 
 
-/* NAVBAR */
-
-nav{
-
-position:fixed;
-
-top:0;
-
-width:100%;
-
-background:white;
-
-padding:18px 0;
-
-box-shadow:0 5px 25px rgba(0,0,0,.06);
-
-z-index:999;
-
-}
-
-
-.navbar{
-
-display:flex;
-
-justify-content:space-between;
-
-align-items:center;
-
-}
-
-
-.logo{
-
-display:flex;
-
-align-items:center;
-
-gap:15px;
-
-}
-
-
-.logo img{
-
-width:60px;
-
-}
-
-
-.logo h2{
-
-font-size:34px;
-
-color:#6b3b17;
-
-font-weight:800;
-
-}
-
-
-
-.menu{
-
-display:flex;
-
-gap:35px;
-
-}
-
-
-.menu a{
-
-text-decoration:none;
-
-color:#444;
-
-font-weight:600;
-
-}
-
-
-.menu a:hover{
-
-color:#ff6b00;
-
-}
-
-
-
-/* HERO */
-
-.hero{
-
-
-height:100vh;
-
-display:flex;
-
-align-items:center;
-
-
-background:
-
-
-linear-gradient(rgba(0,0,0,.45),
-
-rgba(0,0,0,.45)),
-
-url('hero.jpg');
-
-
-background-size:cover;
-
-background-position:center;
-
-
-
-}
-
-
-
-
-.hero-content{
-
-
-text-align:center;
-
-width:100%;
-
-
-color:white;
-
-}
-
-
-
-
-.hero h1{
-
-
-font-size:80px;
-
-font-weight:800;
-
-margin-bottom:20px;
-
-}
-
-
-
-
-.hero p{
-
-
-font-size:28px;
-
-margin-bottom:40px;
-
-}
-
-
-
-
-.btn{
-
-
-padding:18px 45px;
-
-
-border-radius:50px;
-
-text-decoration:none;
-
-font-size:18px;
-
-
-font-weight:700;
-
-
-
-display:inline-block;
-
-
-transition:.4s;
-
-
-}
-
-
-
-.btn-wa{
-
-
-background:#25D366;
-
-color:white;
-
-
-}
-
-
-
-.btn-wa:hover{
-
-
-transform:translateY(-5px);
-
-
-box-shadow:0 10px 25px rgba(0,0,0,.2);
-
-
-}
-
-
-
-
-/* BADGE HALAL */
-
-.halal{
-
-margin-top:35px;
-
-}
-
-
-.halal img{
-
-
-width:110px;
-
-}
-
-
-
-
-/* SECTION */
-
 section{
-
 
 padding:100px 0;
 
@@ -302,21 +128,21 @@ padding:100px 0;
 
 .title{
 
-
 text-align:center;
 
-margin-bottom:60px;
+margin-bottom:70px;
 
 }
 
 
-.title h2{
 
+.title h2{
 
 font-size:42px;
 
-color:#6b3b17;
+font-weight:800;
 
+color:var(--primary);
 
 }
 
@@ -332,14 +158,275 @@ color:#777;
 
 
 
+/* NAVBAR */
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+padding:18px 0;
+
+z-index:9999;
+
+transition:.4s;
+
+}
+
+
+nav.active{
+
+background:white;
+
+box-shadow:var(--shadow);
+
+}
 
 
 
-/* KEUNGGULAN */
+.navbar{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
 
 
 
-.features{
+.logo{
+
+display:flex;
+
+align-items:center;
+
+gap:15px;
+
+}
+
+
+
+.logo img{
+
+width:60px;
+
+}
+
+
+
+.logo h2{
+
+font-size:30px;
+
+font-weight:800;
+
+color:var(--primary);
+
+}
+
+
+
+
+.menu{
+
+display:flex;
+
+gap:35px;
+
+}
+
+
+
+.menu a{
+
+text-decoration:none;
+
+font-weight:600;
+
+color:white;
+
+transition:.3s;
+
+}
+
+
+
+nav.active .menu a{
+
+color:#444;
+
+}
+
+
+
+.menu a:hover{
+
+color:var(--secondary);
+
+}
+
+
+
+.mobile-btn{
+
+display:none;
+
+font-size:30px;
+
+cursor:pointer;
+
+}
+
+
+
+
+/* HERO */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+align-items:center;
+
+
+background:
+
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.45)
+),
+
+url(hero.jpg);
+
+
+background-size:cover;
+
+background-position:center;
+
+text-align:center;
+
+color:white;
+
+}
+
+
+
+.hero-content{
+
+width:100%;
+
+}
+
+
+
+.hero h1{
+
+font-size:75px;
+
+font-weight:800;
+
+margin-bottom:15px;
+
+}
+
+
+
+.hero p{
+
+font-size:24px;
+
+margin-bottom:40px;
+
+}
+
+
+
+.btn{
+
+
+padding:18px 45px;
+
+
+border-radius:50px;
+
+
+display:inline-block;
+
+
+text-decoration:none;
+
+
+font-weight:700;
+
+
+transition:.4s;
+
+}
+
+
+
+.btn-wa{
+
+
+background:#25D366;
+
+
+color:white;
+
+}
+
+
+
+.btn-wa:hover{
+
+
+transform:translateY(-5px);
+
+
+box-shadow:
+
+0 10px 25px rgba(0,0,0,.25);
+
+}
+
+
+
+.halal{
+
+
+margin-top:30px;
+
+}
+
+
+
+.halal img{
+
+
+width:100px;
+
+margin:auto;
+
+}
+
+
+
+
+/* STATISTIK */
+
+.stats{
+
+
+margin-top:60px;
 
 
 display:grid;
@@ -348,91 +435,112 @@ display:grid;
 grid-template-columns:
 
 
-repeat(4,1fr);
-
+repeat(3,1fr);
 
 
 gap:30px;
+
 
 }
 
 
 
-.feature{
+
+.stat{
 
 
-background:white;
+background:rgba(255,255,255,.1);
 
-padding:40px;
+
+backdrop-filter:blur(10px);
+
+
+padding:25px;
 
 
 border-radius:20px;
 
 
-text-align:center;
+}
 
 
-box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+
+.stat h3{
+
+
+font-size:30px;
+
+
+font-weight:800;
+
+
+margin-bottom:5px;
+
 
 }
 
 
 
-.feature i{
+
+.stat p{
 
 
-font-size:50px;
+font-size:15px;
 
 
-display:block;
-
-
-margin-bottom:20px;
+opacity:.9;
 
 
 }
 
 
 
-.feature h3{
+/* ANIMASI */
 
+.fade{
 
-color:#6b3b17;
+opacity:0;
 
-margin-bottom:15px;
+transform:translateY(40px);
 
-}
-
-
-
-.feature p{
-
-color:#777;
-
-line-height:1.7;
+transition:1s;
 
 }
 
-    
-/* ========================= */
-/* PRODUK */
-/* ========================= */
+
+.fade.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+    /* =========================================
+PRODUK
+========================================= */
 
 .products{
 
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
 gap:30px;
 
 }
 
+
 .card{
 
 background:white;
+
 border-radius:25px;
+
 overflow:hidden;
 
-box-shadow:0 10px 30px rgba(0,0,0,.08);
+box-shadow:var(--shadow);
 
 transition:.4s;
 
@@ -449,7 +557,9 @@ transform:translateY(-10px);
 .card img{
 
 width:100%;
+
 height:250px;
+
 object-fit:cover;
 
 }
@@ -462,20 +572,18 @@ padding:25px;
 }
 
 
-.card h3{
+.card-body h3{
 
-color:#6b3b17;
+color:var(--primary);
 
 margin-bottom:10px;
 
 }
 
 
-.card p{
+.card-body p{
 
 color:#777;
-
-line-height:1.8;
 
 }
 
@@ -488,9 +596,11 @@ margin-top:15px;
 
 font-size:24px;
 
+
 font-weight:700;
 
-color:#ff6b00;
+
+color:var(--secondary);
 
 
 }
@@ -499,16 +609,18 @@ color:#ff6b00;
 
 
 
-/* ========================= */
-/* TOPPING */
-/* ========================= */
+/* =========================================
+TOPPING
+========================================= */
 
 .topping{
 
 
-background:#fff7f1;
+background:#FFF7F1;
+
 
 }
+
 
 
 .topping-list{
@@ -518,6 +630,7 @@ display:grid;
 
 
 grid-template-columns:
+
 repeat(auto-fit,minmax(220px,1fr));
 
 
@@ -528,14 +641,17 @@ gap:20px;
 
 
 
+
 .item{
 
 
 padding:25px;
 
-background:white;
 
-border-radius:15px;
+border-radius:20px;
+
+
+background:white;
 
 
 text-align:center;
@@ -544,8 +660,21 @@ text-align:center;
 font-weight:600;
 
 
+box-shadow:var(--shadow);
 
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+
+transition:.3s;
+
+
+}
+
+
+
+.item:hover{
+
+
+transform:translateY(-5px);
+
 
 }
 
@@ -553,68 +682,236 @@ box-shadow:0 5px 15px rgba(0,0,0,.05);
 
 
 
-
-/* ========================= */
-/* GALLERY */
-/* ========================= */
-
-.gallery{
+/* =========================================
+SLIDER PREMIUM
+========================================= */
 
 
-display:grid;
+.slider-container{
 
-grid-template-columns:
-repeat(auto-fit,minmax(280px,1fr));
 
-gap:20px;
+position:relative;
+
+
+max-width:1000px;
+
+
+margin:auto;
+
+
+overflow:hidden;
+
+
+border-radius:25px;
+
+
+
+box-shadow:
+
+
+0 15px 40px rgba(0,0,0,.1);
 
 
 }
 
 
-.gallery img{
+
+.slider-track{
+
+
+display:flex;
+
+
+transition:.8s ease;
+
+
+}
+
+
+
+.slider-track img{
 
 
 width:100%;
 
 
-height:260px;
+height:550px;
+
 
 object-fit:cover;
 
 
-border-radius:20px;
+flex-shrink:0;
 
-
-
-transition:.4s;
-
-}
-
-
-
-.gallery img:hover{
-
-
-transform:scale(1.04);
 
 }
 
 
 
 
+.prev,
+.next{
 
-/* ========================= */
-/* TESTIMONI */
-/* ========================= */
+
+position:absolute;
+
+
+top:50%;
+
+
+transform:translateY(-50%);
+
+
+
+width:55px;
+
+
+height:55px;
+
+
+
+border:none;
+
+
+border-radius:50%;
+
+
+
+background:white;
+
+
+
+cursor:pointer;
+
+
+font-size:22px;
+
+
+
+box-shadow:
+
+
+0 5px 15px rgba(0,0,0,.2);
+
+
+
+z-index:100;
+
+
+}
+
+
+
+.prev{
+
+left:20px;
+
+}
+
+
+
+.next{
+
+right:20px;
+
+}
+
+
+
+.prev:hover,
+.next:hover{
+
+
+background:var(--secondary);
+
+
+color:white;
+
+
+}
+
+
+
+
+.dots{
+
+
+position:absolute;
+
+
+bottom:20px;
+
+
+width:100%;
+
+
+text-align:center;
+
+
+}
+
+
+
+.dot{
+
+
+width:12px;
+
+
+height:12px;
+
+
+margin:0 5px;
+
+
+border-radius:50%;
+
+
+display:inline-block;
+
+
+background:white;
+
+
+opacity:.5;
+
+
+cursor:pointer;
+
+
+}
+
+
+.dot.active{
+
+
+background:var(--secondary);
+
+
+opacity:1;
+
+
+}
+
+
+
+
+
+
+/* =========================================
+TESTIMONI
+========================================= */
 
 
 .testi{
 
 
-background:#fff7f1;
+background:#FFF7F1;
+
 
 }
+
+
 
 
 .review-wrap{
@@ -622,8 +919,12 @@ background:#fff7f1;
 
 display:grid;
 
+
 grid-template-columns:
+
+
 repeat(auto-fit,minmax(300px,1fr));
+
 
 gap:30px;
 
@@ -637,16 +938,18 @@ gap:30px;
 
 background:white;
 
+
 padding:35px;
 
 
-border-radius:20px;
+border-radius:25px;
 
 
-box-shadow:0 5px 15px rgba(0,0,0,.05);
+box-shadow:var(--shadow);
 
 
 }
+
 
 
 
@@ -656,18 +959,17 @@ box-shadow:0 5px 15px rgba(0,0,0,.05);
 margin-top:20px;
 
 
-color:#6b3b17;
+color:var(--primary);
+
 
 }
 
 
 
 
-
-
-/* ========================= */
-/* FAQ */
-/* ========================= */
+/* =========================================
+FAQ ACCORDION
+========================================= */
 
 
 .faq{
@@ -675,7 +977,9 @@ color:#6b3b17;
 
 max-width:900px;
 
+
 margin:auto;
+
 
 }
 
@@ -684,34 +988,83 @@ margin:auto;
 .faq-item{
 
 
+background:white;
+
+
 margin-bottom:20px;
+
+
+border-radius:20px;
+
+
+overflow:hidden;
+
+
+box-shadow:var(--shadow);
+
+
+}
+
+
+
+.faq-question{
+
 
 padding:25px;
 
-border-radius:15px;
+
+cursor:pointer;
 
 
-background:white;
-
-box-shadow:0 5px 15px rgba(0,0,0,.05);
-
-}
+font-weight:700;
 
 
-.faq-item h3{
+color:var(--primary);
 
-margin-bottom:10px;
-
-color:#6b3b17;
 
 }
 
 
 
 
-/* ========================= */
-/* MAP */
-/* ========================= */
+.faq-answer{
+
+
+padding:0 25px;
+
+
+max-height:0;
+
+
+overflow:hidden;
+
+
+transition:.4s;
+
+
+}
+
+
+
+.faq-item.active .faq-answer{
+
+
+padding:0 25px 25px;
+
+
+max-height:200px;
+
+
+}
+
+
+
+
+
+
+/* =========================================
+MAP
+========================================= */
 
 
 .map iframe{
@@ -719,20 +1072,28 @@ color:#6b3b17;
 
 width:100%;
 
+
 height:450px;
 
-border-radius:20px;
 
 border:none;
+
+
+border-radius:25px;
+
+
+box-shadow:var(--shadow);
+
 
 }
 
 
 
 
-/* ========================= */
-/* FOOTER */
-/* ========================= */
+/* =========================================
+FOOTER
+========================================= */
+
 
 footer{
 
@@ -740,16 +1101,17 @@ footer{
 padding:80px 0;
 
 
-background:#4b2508;
-
-
-text-align:center;
+background:#4B2508;
 
 
 color:white;
 
 
+text-align:center;
+
+
 }
+
 
 
 footer img{
@@ -757,14 +1119,12 @@ footer img{
 
 width:90px;
 
+
+margin:auto;
+
+
 margin-bottom:20px;
 
-}
-
-
-footer h2{
-
-margin-bottom:15px;
 
 }
 
@@ -773,7 +1133,7 @@ margin-bottom:15px;
 footer p{
 
 
-opacity:.8;
+opacity:.85;
 
 
 line-height:1.8;
@@ -784,32 +1144,10 @@ line-height:1.8;
 
 
 
-.social{
 
-
-margin-top:25px;
-
-
-}
-
-
-.social a{
-
-
-color:white;
-
-text-decoration:none;
-
-margin:0 10px;
-
-}
-
-
-
-
-/* ========================= */
-/* WA FLOAT */
-/* ========================= */
+/* =========================================
+WHATSAPP FLOAT
+========================================= */
 
 
 .wa{
@@ -817,89 +1155,177 @@ margin:0 10px;
 
 position:fixed;
 
+
 right:25px;
+
 
 bottom:25px;
 
 
 width:65px;
 
+
 height:65px;
 
 
-background:#25D366;
-
 border-radius:50%;
+
+
+background:#25D366;
 
 
 display:flex;
 
 
-align-items:center;
-
 justify-content:center;
 
 
-font-size:28px;
+align-items:center;
 
-text-decoration:none;
+
+font-size:30px;
 
 
 color:white;
 
 
-box-shadow:0 10px 25px rgba(0,0,0,.25);
+text-decoration:none;
 
 
-z-index:9999;
+box-shadow:
+
+
+0 10px 25px rgba(0,0,0,.25);
+
+
+z-index:99999;
+
 
 }
 
 
 
-
-
-/* ========================= */
-/* MOBILE */
-/* ========================= */
+/* =========================================
+RESPONSIVE
+========================================= */
 
 
 @media(max-width:768px){
 
 
+
+.mobile-btn{
+
+
+display:block;
+
+
+color:white;
+
+
+}
+
+
+
+nav.active .mobile-btn{
+
+
+color:#333;
+
+
+}
+
+
+
 .menu{
+
 
 display:none;
 
+
+position:absolute;
+
+
+top:80px;
+
+
+left:0;
+
+
+width:100%;
+
+
+padding:25px;
+
+
+background:white;
+
+
+flex-direction:column;
+
+
+gap:20px;
+
+
 }
+
+
+
+.menu.active{
+
+
+display:flex;
+
+
+}
+
+
+
+.menu a{
+
+
+color:#444;
+
+
+}
+
 
 
 .hero h1{
 
+
 font-size:42px;
 
+
 }
+
 
 
 .hero p{
 
+
 font-size:20px;
+
 
 }
 
 
 
-.features{
+.stats{
+
 
 grid-template-columns:1fr;
 
+
 }
 
 
 
-.logo h2{
+.slider-track img{
 
-font-size:24px;
+
+height:280px;
+
 
 }
 
@@ -907,13 +1333,17 @@ font-size:24px;
 
 .title h2{
 
+
 font-size:30px;
 
+
+}
+
+
+
 }
 
 
-
-}
 
 
 </style>
@@ -921,11 +1351,11 @@ font-size:30px;
 </head>
 
 <body>
-    <!-- ========================= -->
+    <!-- ========================================= -->
 <!-- NAVBAR -->
-<!-- ========================= -->
+<!-- ========================================= -->
 
-<nav>
+<nav id="navbar">
 
 <div class="container navbar">
 
@@ -939,7 +1369,7 @@ font-size:30px;
 
 
 
-<div class="menu">
+<div class="menu" id="menu">
 
 <a href="#beranda">Beranda</a>
 
@@ -955,40 +1385,70 @@ font-size:30px;
 
 </div>
 
+
+
+<div class="mobile-btn" id="mobileBtn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
 </div>
 
 </nav>
 
 
 
-<!-- ========================= -->
+
+
+<!-- ========================================= -->
 <!-- HERO -->
-<!-- ========================= -->
+<!-- ========================================= -->
 
 
-<section class="hero" id="beranda">
+<section class="hero"
+
+id="beranda">
 
 
-<div class="container hero-content">
+<div class="container">
 
 
-<h1>MAIQ DONAT</h1>
+<div class="hero-content fade">
+
+
+<h1>
+
+MAIQ DONAT
+
+</h1>
+
+
 
 <p>
 
 Donat Premium Homemade Bekasi
 
+Fresh Everyday • Halal • Handmade
+
+
 </p>
+
 
 
 
 <a href="https://wa.me/6281339779750"
 
+target="_blank"
+
 class="btn btn-wa">
+
 
 Pesan Sekarang
 
+
 </a>
+
 
 
 
@@ -1000,6 +1460,95 @@ Pesan Sekarang
 
 </div>
 
+
+
+
+<!-- STATISTIK -->
+
+
+<div class="stats">
+
+
+<div class="stat">
+
+
+<h3>
+
+1000+
+
+</h3>
+
+
+<p>
+
+Box Terjual
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="stat">
+
+
+<h3>
+
+500+
+
+</h3>
+
+
+
+<p>
+
+Pelanggan
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+<div class="stat">
+
+
+<h3>
+
+4.9 ★
+
+
+</h3>
+
+
+
+<p>
+
+Rating Pelanggan
+
+
+</p>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
 </div>
 
 </section>
@@ -1009,9 +1558,9 @@ Pesan Sekarang
 
 
 
-<!-- ========================= -->
+<!-- ========================================= -->
 <!-- KEUNGGULAN -->
-<!-- ========================= -->
+<!-- ========================================= -->
 
 
 <section id="keunggulan">
@@ -1020,16 +1569,25 @@ Pesan Sekarang
 <div class="container">
 
 
+<div class="title fade">
 
-<div class="title">
 
-<h2>Mengapa Memilih MAIQ DONAT?</h2>
+<h2>
+
+Mengapa Memilih MAIQ DONAT?
+
+
+</h2>
+
+
 
 <p>
 
-Donat premium handmade dengan bahan berkualitas.
+Donat Premium Homemade dengan kualitas terbaik.
+
 
 </p>
+
 
 </div>
 
@@ -1040,68 +1598,133 @@ Donat premium handmade dengan bahan berkualitas.
 
 
 
-<div class="feature">
 
-<i>🍩</i>
 
-<h3>Fresh Everyday</h3>
+<div class="feature fade">
+
+
+<i class="fa-solid fa-cookie-bite"></i>
+
+
+
+<h3>
+
+Fresh Everyday
+
+
+</h3>
+
+
 
 <p>
 
-Diproduksi setiap hari.
+Diproduksi setiap hari agar tetap lembut,
+fresh dan nikmat.
+
 
 </p>
+
+
 
 </div>
 
 
 
-<div class="feature">
 
-<i>🕌</i>
 
-<h3>Halal Indonesia</h3>
+
+<div class="feature fade">
+
+
+
+<i class="fa-solid fa-award"></i>
+
+
+<h3>
+
+Premium Quality
+
+
+</h3>
+
 
 <p>
 
-Menggunakan bahan halal.
+Menggunakan bahan pilihan berkualitas tinggi.
+
 
 </p>
+
+
 
 </div>
 
 
 
-<div class="feature">
 
-<i>🚚</i>
 
-<h3>Siap Antar</h3>
+
+
+<div class="feature fade">
+
+
+
+<i class="fa-solid fa-truck-fast"></i>
+
+
+
+<h3>
+
+Siap Antar
+
+
+</h3>
+
+
 
 <p>
 
-Area Bekasi dan sekitarnya.
+Melayani area Bekasi dan sekitarnya.
+
 
 </p>
+
+
 
 </div>
 
 
 
-<div class="feature">
 
-<i>🎁</i>
 
-<h3>Cocok Hampers</h3>
+
+<div class="feature fade">
+
+
+<i class="fa-solid fa-gift"></i>
+
+
+
+<h3>
+
+Cocok Hampers
+
+
+</h3>
+
+
 
 <p>
 
-Untuk ulang tahun dan acara.
+Pilihan tepat untuk ulang tahun,
+kantor dan acara keluarga.
+
 
 </p>
 
-</div>
 
+
+</div>
 
 
 
@@ -1111,52 +1734,35 @@ Untuk ulang tahun dan acara.
 </div>
 
 </section>
-
-
-
-
-
-
-
-<!-- ========================= -->
+<!-- ========================================= -->
 <!-- PRODUK -->
-<!-- ========================= -->
+<!-- ========================================= -->
 
 <section id="produk">
 
-
 <div class="container">
 
-
-
-<div class="title">
+<div class="title fade">
 
 <h2>Menu MAIQ DONAT</h2>
 
 <p>
-
-Pilihan paket favorit pelanggan.
-
+Pilihan donat premium favorit pelanggan
 </p>
 
 </div>
 
 
-
-
 <div class="products">
 
 
+<!-- Produk 1 -->
 
-
-
-<div class="card">
+<div class="card fade">
 
 <img src="produk1.jpg">
 
-
 <div class="card-body">
-
 
 <h3>Donat Reguler</h3>
 
@@ -1166,10 +1772,9 @@ Isi 6 Donat Premium
 
 </p>
 
-
 <div class="price">
 
-Rp48.000
+Rp 48.000
 
 </div>
 
@@ -1179,16 +1784,13 @@ Rp48.000
 
 
 
+<!-- Produk 2 -->
 
-
-
-<div class="card">
+<div class="card fade">
 
 <img src="produk2.jpg">
 
-
 <div class="card-body">
-
 
 <h3>Donat Mini</h3>
 
@@ -1196,13 +1798,11 @@ Rp48.000
 
 Isi 12 pcs
 
-
 </p>
-
 
 <div class="price">
 
-Rp48.000
+Rp 48.000
 
 </div>
 
@@ -1212,17 +1812,14 @@ Rp48.000
 
 
 
+<!-- Produk 3 -->
 
 
-
-
-<div class="card">
+<div class="card fade">
 
 <img src="produk3.jpg">
 
-
 <div class="card-body">
-
 
 <h3>Donat Mini</h3>
 
@@ -1230,13 +1827,11 @@ Rp48.000
 
 Isi 6 pcs
 
-
 </p>
-
 
 <div class="price">
 
-Rp25.000
+Rp 25.000
 
 </div>
 
@@ -1247,258 +1842,208 @@ Rp25.000
 
 
 
+<!-- Produk 4 -->
 
 
-<div class="card">
+<div class="card fade">
 
 <img src="produk4.jpg">
 
-
 <div class="card-body">
-
 
 <h3>Donat Satuan</h3>
 
 <p>
 
-Harga mulai
+Mulai dari
+
+
+</p>
+
+<div class="price">
+
+Rp 4.500 - 8.000
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- ========================================= -->
+<!-- TOPPING -->
+<!-- ========================================= -->
+
+
+<section class="topping">
+
+
+<div class="container">
+
+
+<div class="title fade">
+
+<h2>
+
+Aneka Topping
+
+</h2>
+
+
+<p>
+
+Pilihan topping favorit pelanggan
+
+
+</p>
+
+</div>
+
+
+
+<div class="topping-list">
+
+
+<div class="item">🍫 Coklat Lumer</div>
+
+<div class="item">🍫 Meses Coklat</div>
+
+<div class="item">🌈 Meses Warna</div>
+
+<div class="item">☕ Capucino</div>
+
+<div class="item">🌰 Tiramisu Almond</div>
+
+<div class="item">🧀 Keju</div>
+
+<div class="item">🌿 Gula Mint</div>
+
+<div class="item">🥜 Coklat Kacang</div>
+
+<div class="item">🍦 Vanilla</div>
+
+<div class="item">💜 Taro</div>
+
+<div class="item">🥩 Abon</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+
+<!-- ========================================= -->
+<!-- GALERI PREMIUM -->
+<!-- ========================================= -->
+
+
+<section id="galeri">
+
+
+<div class="container">
+
+
+<div class="title fade">
+
+
+<h2>
+
+Galeri MAIQ DONAT
+
+</h2>
+
+
+<p>
+
+Fresh • Premium • Handmade
 
 
 </p>
 
 
-<div class="price">
-
-Rp4.500 - Rp8.000
-
-</div>
-
-</div>
-
 </div>
 
 
 
-</div>
-
-</div>
-
-</section>
-
-    <!-- ========================= -->
-<!-- TOPPING -->
-<!-- ========================= -->
-
-<section class="topping">
-
-<div class="container">
-
-<div class="title">
-<h2>Aneka Topping Favorit</h2>
-<p>Pilihan topping premium MAIQ DONAT</p>
-</div>
-
-<div class="topping-list">
-
-<div class="item">🍫 Coklat Lumer</div>
-<div class="item">🍫 Meses Coklat</div>
-<div class="item">🌈 Meses Warna</div>
-<div class="item">☕ Capucino</div>
-<div class="item">🌰 Tiramisu Almond</div>
-<div class="item">🧀 Keju</div>
-<div class="item">🌿 Gula Mint</div>
-<div class="item">🥜 Coklat Kacang</div>
-<div class="item">🍦 Vanilla</div>
-<div class="item">💜 Taro</div>
-<div class="item">🥩 Abon</div>
-
-</div>
-
-</div>
-
-</section>
+<div class="slider-container">
 
 
+<div class="slider-track">
 
-<!-- ========================= -->
-<!-- GALERI -->
-<!-- ========================= -->
 
-<section id="galeri">
-
-<div class="container">
-
-<div class="title">
-<h2>Galeri MAIQ DONAT</h2>
-<p>Beberapa foto produk terbaik kami</p>
-</div>
-
-<div class="gallery">
-
-<div class="slider">
-
-<div class="slides">
 
 <img src="galeri1.jpg">
+
 <img src="galeri2.jpg">
+
 <img src="galeri3.jpg">
+
 <img src="galeri4.jpg">
+
 <img src="galeri5.jpg">
+
 <img src="galeri6.jpg">
-    
-/* ================= */
 
-.slider{
 
-max-width:1000px;
+</div>
 
-margin:auto;
 
-overflow:hidden;
 
-border-radius:25px;
 
-box-shadow:0 10px 30px rgba(0,0,0,.1);
+<button class="prev">
 
-}
+❮
 
+</button>
 
 
 
-.slides{
 
-display:flex;
+<button class="next">
 
-width:600%;
+❯
 
-animation:slide 18s infinite;
+</button>
 
-}
 
 
 
 
-.slides img{
+<div class="dots">
 
-width:100%;
 
-height:550px;
+<span class="dot active"></span>
 
-object-fit:cover;
+<span class="dot"></span>
 
-flex-shrink:0;
+<span class="dot"></span>
 
-}
+<span class="dot"></span>
 
+<span class="dot"></span>
 
+<span class="dot"></span>
 
 
-@keyframes slide{
-
-
-0%{
-
-transform:translateX(0);
-
-}
-
-
-
-15%{
-
-transform:translateX(0);
-
-}
-
-
-
-
-20%{
-
-transform:translateX(-100%);
-
-}
-
-
-
-35%{
-
-transform:translateX(-100%);
-
-}
-
-
-
-40%{
-
-transform:translateX(-200%);
-
-}
-
-
-
-55%{
-
-transform:translateX(-200%);
-
-}
-
-
-
-60%{
-
-transform:translateX(-300%);
-
-}
-
-
-
-75%{
-
-transform:translateX(-300%);
-
-}
-
-
-
-80%{
-
-transform:translateX(-400%);
-
-}
-
-
-
-90%{
-
-transform:translateX(-400%);
-
-}
-
-
-
-100%{
-
-transform:translateX(-500%);
-
-}
-
-
-}
-
-
-
-@media(max-width:768px){
-
-
-.slides img{
-
-height:280px;
-
-}
-
-
-}
+</div>
 
 
 </div>
@@ -1509,73 +2054,138 @@ height:280px;
 
 
 
-<!-- ========================= -->
+
+
+
+<!-- ========================================= -->
 <!-- TESTIMONI -->
-<!-- ========================= -->
+<!-- ========================================= -->
+
 
 <section class="testi">
 
+
 <div class="container">
 
-<div class="title">
 
-<h2>Testimoni Pelanggan</h2>
+<div class="title fade">
 
-<p>Kepuasan pelanggan adalah prioritas kami</p>
+
+<h2>
+
+Testimoni Pelanggan
+
+
+</h2>
+
+
+<p>
+
+Kepuasan pelanggan adalah prioritas kami
+
+
+</p>
+
 
 </div>
+
+
 
 
 <div class="review-wrap">
 
 
-<div class="review">
+
+
+<div class="review fade">
+
 
 ⭐⭐⭐⭐⭐
 
+
 <p>
 
-Donatnya lembut, topping melimpah,
-anak-anak suka sekali.
+Donat sangat lembut,
+topping banyak dan enak.
+
 
 </p>
 
-<h4>— Pelanggan Bekasi</h4>
+
+
+<h4>
+
+— Pelanggan Bekasi
+
+
+</h4>
+
 
 </div>
 
 
 
-<div class="review">
+
+
+
+<div class="review fade">
+
 
 ⭐⭐⭐⭐⭐
 
+
 <p>
 
-Fresh, premium dan cocok untuk hampers.
+Fresh, premium dan cocok
+untuk hampers keluarga.
+
 
 </p>
 
-<h4>— Customer Jatisampurna</h4>
+
+
+<h4>
+
+— Customer Jatisampurna
+
+
+</h4>
+
 
 </div>
 
 
 
 
-<div class="review">
+
+
+<div class="review fade">
+
 
 ⭐⭐⭐⭐⭐
 
+
 <p>
 
-Pengiriman cepat dan rasa sangat enak.
+Pengiriman cepat,
+rasanya bikin ketagihan.
+
 
 </p>
 
-<h4>— Pelanggan Setia</h4>
+
+
+<h4>
+
+— Pelanggan Setia
+
+
+</h4>
+
 
 </div>
+
+
 
 
 </div>
@@ -1584,218 +2194,34 @@ Pengiriman cepat dan rasa sangat enak.
 </div>
 
 </section>
+https://instagram.com/maiqdonat
+https://facebook.com/maiqdonat
+.map{
 
+background:#FFF8F1;
 
+}
 
 
-<!-- ========================= -->
-<!-- FAQ -->
-<!-- ========================= -->
+.map iframe{
 
-<section id="faq">
+width:100%;
 
-<div class="container">
+height:450px;
 
-<div class="title">
+border:none;
 
-<h2>FAQ</h2>
+border-radius:25px;
 
-</div>
+box-shadow:
+0 10px 30px rgba(0,0,0,.08);
 
+}
 
-<div class="faq">
 
 
-<div class="faq-item">
+.map .btn{
 
-<h3>Apakah menerima pesanan partai?</h3>
+margin-top:20px;
 
-<p>
-
-Ya, menerima pesanan,
-arisan, kantor, hampers dan acara lainnya.
-
-</p>
-
-</div>
-
-
-
-<div class="faq-item">
-
-<h3>Apakah bisa delivery?</h3>
-
-<p>
-
-Ya, melayani area Bekasi dan sekitarnya.
-
-</p>
-
-</div>
-
-
-
-<div class="faq-item">
-
-<h3>Apakah halal?</h3>
-
-<p>
-
-Menggunakan bahan berkualitas dan halal.
-
-</p>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
-
-
-
-
-
-<!-- ========================= -->
-<!-- KONTAK -->
-<!-- ========================= -->
-
-
-<section id="kontak">
-
-
-<div class="container">
-
-
-<div class="title">
-
-<h2>Hubungi Kami</h2>
-
-</div>
-
-
-<center>
-
-<p>
-
-📍 Jl. Ili 1 No.161 RT02/RW09
-
-Kel. Jatirangga
-
-Kec. Jatisampurna
-
-Kota Bekasi 17434
-
-
-</p>
-
-
-<br>
-
-
-
-<p>
-
-📱 WhatsApp
-
-
-<b>
-
-081339779750
-
-</b>
-
-</p>
-
-</center>
-
-
-</div>
-
-</section>
-
-
-
-
-
-<!-- ========================= -->
-<!-- FOOTER -->
-<!-- ========================= -->
-
-
-<footer>
-
-
-<img src="logo.png">
-
-
-<h2>MAIQ DONAT</h2>
-
-
-<p>
-
-Donat Premium Homemade Bekasi
-
-
-</p>
-
-
-
-<p>
-
-WhatsApp :
-
-081339779750
-
-
-</p>
-
-
-
-<p>
-
-Jl. Ili 1 No.161
-
-Jatirangga
-
-Bekasi
-
-
-</p>
-
-
-
-<p>
-
-© 2026 MAIQ DONAT
-
-All Rights Reserved
-
-
-</p>
-
-
-</footer>
-
-
-
-
-
-<!-- WA FLOAT -->
-
-<a href="https://wa.me/6281339779750"
-
-class="wa">
-
-💬
-
-</a>
-
-
-
-
-</body>
-
-</html>
+}
