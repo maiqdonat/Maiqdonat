@@ -6,129 +6,411 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>MAIQ DONAT</title>
+<title>MAIQ DONAT | Donat Premium Homemade Bekasi</title>
 
-<link rel="stylesheet" href="style.css">
+<meta name="description"
+content="MAIQ DONAT Bekasi. Donat premium homemade dengan topping melimpah. Halal, lembut, cocok untuk hampers, acara dan cemilan keluarga.">
 
-</head>
+<meta name="keywords"
+content="donat bekasi, donat premium, maiq donat, donat halal, bomboloni">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
-<body>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 
-<header>
+<style>
 
-<nav>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-<img src="images/logo.png">
+body{
 
-<ul>
+font-family:Poppins,sans-serif;
 
-<li><a href="#">Home</a></li>
-<li><a href="#produk">Produk</a></li>
-<li><a href="#tentang">Tentang</a></li>
-<li><a href="#kontak">Kontak</a></li>
+background:#faf8f5;
 
-</ul>
+color:#333;
 
-</nav>
+overflow-x:hidden;
 
-</header>
+}
 
 
+/* ====================== */
 
-<section class="hero">
+.container{
 
-<div class="overlay">
+width:90%;
+max-width:1200px;
 
+margin:auto;
 
-<h1>MAIQ DONAT</h1>
+}
 
-<p>
-Premium Homemade Bekasi
-</p>
 
 
-<a href="https://wa.me/6281339779750">
+/* NAVBAR */
 
-Pesan Sekarang
+nav{
 
-</a>
+position:fixed;
 
-</div>
+top:0;
 
-</section>
+width:100%;
 
+background:white;
 
+padding:18px 0;
 
-<section id="produk">
+box-shadow:0 5px 25px rgba(0,0,0,.06);
 
-<h2>Galeri Donat</h2>
+z-index:999;
 
-<div class="gallery">
+}
 
-<img src="images/galeri1.jpg">
-<img src="images/galeri2.jpg">
-<img src="images/galeri3.jpg">
-<img src="images/galeri4.jpg">
-<img src="images/galeri5.jpg">
 
+.navbar{
 
-</div>
+display:flex;
 
-</section>
+justify-content:space-between;
 
+align-items:center;
 
+}
 
-<section id="tentang">
 
-<h2>Tentang Kami</h2>
+.logo{
 
-<p>
+display:flex;
 
-MAIQ DONAT menghadirkan donat premium homemade
-dengan bahan berkualitas,
-topping melimpah,
-tekstur lembut,
-dan cita rasa istimewa.
+align-items:center;
 
+gap:15px;
 
-</p>
+}
 
-</section>
 
+.logo img{
 
+width:60px;
 
-<section class="halal">
+}
 
-<img src="images/halal.png">
 
-</section>
+.logo h2{
 
+font-size:34px;
 
+color:#6b3b17;
 
+font-weight:800;
 
-<section id="kontak">
+}
 
 
-<h2>Hubungi Kami</h2>
 
+.menu{
 
-<a class="wa"
+display:flex;
 
-href="https://wa.me/6281339779750">
+gap:35px;
 
-WhatsApp
+}
 
 
-</a>
+.menu a{
 
+text-decoration:none;
 
-</section>
+color:#444;
 
+font-weight:600;
 
+}
 
-<script src="script.js"></script>
 
-</body>
-</html>
+.menu a:hover{
+
+color:#ff6b00;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+
+height:100vh;
+
+display:flex;
+
+align-items:center;
+
+
+background:
+
+
+linear-gradient(rgba(0,0,0,.45),
+
+rgba(0,0,0,.45)),
+
+url('hero.jpg');
+
+
+background-size:cover;
+
+background-position:center;
+
+
+
+}
+
+
+
+
+.hero-content{
+
+
+text-align:center;
+
+width:100%;
+
+
+color:white;
+
+}
+
+
+
+
+.hero h1{
+
+
+font-size:80px;
+
+font-weight:800;
+
+margin-bottom:20px;
+
+}
+
+
+
+
+.hero p{
+
+
+font-size:28px;
+
+margin-bottom:40px;
+
+}
+
+
+
+
+.btn{
+
+
+padding:18px 45px;
+
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-size:18px;
+
+
+font-weight:700;
+
+
+
+display:inline-block;
+
+
+transition:.4s;
+
+
+}
+
+
+
+.btn-wa{
+
+
+background:#25D366;
+
+color:white;
+
+
+}
+
+
+
+.btn-wa:hover{
+
+
+transform:translateY(-5px);
+
+
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+
+}
+
+
+
+
+/* BADGE HALAL */
+
+.halal{
+
+margin-top:35px;
+
+}
+
+
+.halal img{
+
+
+width:110px;
+
+}
+
+
+
+
+/* SECTION */
+
+section{
+
+
+padding:100px 0;
+
+}
+
+
+
+.title{
+
+
+text-align:center;
+
+margin-bottom:60px;
+
+}
+
+
+.title h2{
+
+
+font-size:42px;
+
+color:#6b3b17;
+
+
+}
+
+
+.title p{
+
+margin-top:10px;
+
+color:#777;
+
+}
+
+
+
+
+
+
+
+/* KEUNGGULAN */
+
+
+
+.features{
+
+
+display:grid;
+
+
+grid-template-columns:
+
+
+repeat(4,1fr);
+
+
+
+gap:30px;
+
+}
+
+
+
+.feature{
+
+
+background:white;
+
+padding:40px;
+
+
+border-radius:20px;
+
+
+text-align:center;
+
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+
+
+.feature i{
+
+
+font-size:50px;
+
+
+display:block;
+
+
+margin-bottom:20px;
+
+
+}
+
+
+
+.feature h3{
+
+
+color:#6b3b17;
+
+margin-bottom:15px;
+
+}
+
+
+
+.feature p{
+
+color:#777;
+
+line-height:1.7;
+
+}
+
+    
